@@ -23,6 +23,9 @@ namespace Git_VSTS_test.Controllers
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
+        /// <summary>
+        /// mmmmmm
+        /// </summary>
         private const string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
 
